@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0a06">
+  <meta name="description" content="Para Karyme, con flores amarillas y mucho cariño.">
+  <title>Para Karyme · Flores amarillas 💛</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="loader" class="loader">
+    <div class="loader-flower">✦</div>
+    <p>Preparando algo para Karyme...</p>
+  </div>
+
+  <canvas id="petalsCanvas" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="hero" id="inicio">
+    <nav class="nav">
+      <a class="brand" href="#inicio">K<span>♥</span></a>
+      <div class="nav-links">
+        <a href="#galeria">18 recuerdos</a>
+        <a href="#flores">Flores</a>
+        <a href="#carta">Carta</a>
+      </div>
+      <button class="music-btn" id="musicBtn" type="button" aria-label="Activar ambiente">♪</button>
+    </nav>
+
+    <div class="hero-orbit orbit-one"></div>
+    <div class="hero-orbit orbit-two"></div>
+
+    <div class="hero-content reveal">
+      <p class="eyebrow">PARA UNA PERSONA MUY ESPECIAL</p>
+      <h1>Karyme,<br><em>esto floreció por ti.</em></h1>
+      <p class="hero-copy">
+        Hay personas que llegan y dejan una pequeña luz.
+        Tú dejaste una que no se parece a ninguna otra.
+      </p>
+      <a href="#galeria" class="gold-btn">Entrar a este pequeño universo <span>↓</span></a>
+    </div>
+
+    <div class="scroll-hint">DESLIZA <span>↓</span></div>
+  </header>
+
+  <main>
+    <section class="intro section reveal">
+      <div class="section-kicker">01 · UNA PEQUEÑA RAZÓN</div>
+      <div class="intro-grid">
+        <h2>No son solo flores.<br><em>Es todo lo que me haces sentir.</em></h2>
+        <div>
+          <p>
+            Las flores amarillas hablan de alegría, cariño, esperanza y de esos
+            pequeños momentos que uno quisiera guardar para siempre.
+          </p>
+          <p>
+            Por eso quise hacerte este rincón: para que cada pétalo te recuerde
+            algo que quizá a veces olvidas… <strong>que eres alguien admirable,
+            querida y profundamente especial.</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="galeria">
+      <div class="section-head reveal">
+        <div>
+          <div class="section-kicker">02 · 18 MOMENTOS</div>
+          <h2>Pedacitos de <em>ti.</em></h2>
+        </div>
+        <p>Dieciocho formas de recordar lo bonita que es tu existencia.</p>
+      </div>
+
+      <div class="photo-grid">
+        <figure class="photo-card tall reveal"><img src="assets/fotos/foto01.png" alt="Karyme" loading="eager"><figcaption><span>01</span> una sonrisa que merece quedarse</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/fotos/foto02.png" alt="Karyme en la naturaleza" loading="lazy"><figcaption><span>02</span> donde también floreces</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/fotos/foto03.jpg" alt="Espacio para foto 3" loading="lazy"><figcaption><span>03</span> tu forma de mirar el mundo</figcaption></figure>
+        <figure class="photo-card wide reveal"><img src="assets/fotos/foto04.jpg" alt="Espacio para foto 4" loading="lazy"><figcaption><span>04</span> un recuerdo más para guardar</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/fotos/foto05.jpg" alt="Espacio para foto 5" loading="lazy"><figcaption><span>05</span> porque cada versión de ti es bonita</figcaption></figure>
+        <figure class="photo-card tall reveal"><img src="assets/fotos/foto06.jpg" alt="Espacio para foto 6" loading="lazy"><figcaption><span>06</span> incluso en tus días difíciles</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/fotos/foto07.jpg" alt="Espacio para foto 7" loading="lazy"><figcaption><span>07</span> tu risa tiene su propio lugar</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/fotos/foto08.jpg" alt="Espacio para foto 8" loading="lazy"><figcaption><span>08</span> una luz que no tienes que fingir</figcaption></figure>
+        <figure class="photo-card wide reveal"><img src="assets/fotos/foto09.jpg" alt="Espacio para foto 9" loading="lazy"><figcaption><span>09</span> aquí también hay cariño</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/fotos/foto10.jpg" alt="Espacio para foto 10" loading="lazy"><figcaption><span>10</span> por lo bonita que eres por dentro</figcaption></figure>
+        <figure class="photo-card tall reveal"><img src="assets/fotos/foto11.jpg" alt="Espacio para foto 11" loading="lazy"><figcaption><span>11</span> un instante que quisiera detener</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/fotos/foto12.jpg" alt="Espacio para foto 12" loading="lazy"><figcaption><span>12</span> otro pedacito de ti</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/fotos/foto13.jpg" alt="Espacio para foto 13" loading="lazy"><figcaption><span>13</span> porque mereces flores</figcaption></figure>
+        <figure class="photo-card wide reveal"><img src="assets/fotos/foto14.jpg" alt="Espacio para foto 14" loading="lazy"><figcaption><span>14</span> por tu corazón enorme</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/fotos/foto15.jpg" alt="Espacio para foto 15" loading="lazy"><figcaption><span>15</span> por todo lo que aún te espera</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/fotos/foto16.jpg" alt="Espacio para foto 16" loading="lazy"><figcaption><span>16</span> por cada pequeño detalle</figcaption></figure>
+        <figure class="photo-card tall reveal"><img src="assets/fotos/foto17.jpg" alt="Espacio para foto 17" loading="lazy"><figcaption><span>17</span> porque eres más fuerte de lo que crees</figcaption></figure>
+        <figure class="photo-card reveal"><img src="assets/fotos/foto18.jpg" alt="Espacio para foto 18" loading="lazy"><figcaption><span>18</span> y porque te quiero muchísimo</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="flower-section section" id="flores">
+      <div class="section-kicker reveal">03 · HAZ FLORECER UNA</div>
+      <div class="flower-intro reveal">
+        <h2>Haz clic.<br><em>Déjala florecer.</em></h2>
+        <p>Cada flor guarda un mensaje. No tengas miedo de tocarla.</p>
+      </div>
+
+      <div class="flower-garden">
+        <button class="flower-card" data-message="Si algún día dudas de ti, recuerda esto: hay algo en tu forma de ser que hace que alguien pueda quererte muchísimo sin pedirte que seas diferente.">
+          <span class="flower-number">01</span>
+          <div class="flower">
+            <i class="petal p1"></i><i class="petal p2"></i><i class="petal p3"></i><i class="petal p4"></i>
+            <i class="petal p5"></i><i class="petal p6"></i><i class="petal p7"></i><i class="petal p8"></i>
+            <i class="center"></i><i class="stem"></i><i class="leaf l1"></i><i class="leaf l2"></i>
+          </div>
+          <span class="tap">TÓCAME</span>
+        </button>
+
+        <button class="flower-card" data-message="No tienes que estar bien todo el tiempo. También eres valiosa cuando estás cansada, cuando lloras, cuando no sabes qué hacer. Tu valor nunca depende de un día malo.">
+          <span class="flower-number">02</span>
+          <div class="flower flower-alt">
+            <i class="petal p1"></i><i class="petal p2"></i><i class="petal p3"></i><i class="petal p4"></i>
+            <i class="petal p5"></i><i class="petal p6"></i><i class="petal p7"></i><i class="petal p8"></i>
+            <i class="center"></i><i class="stem"></i><i class="leaf l1"></i><i class="leaf l2"></i>
+          </div>
+          <span class="tap">TÓCAME</span>
+        </button>
+
+        <button class="flower-card" data-message="Tu corazón es una de las cosas que más admiro de ti. Aun con todo lo que cargas, sigues teniendo cariño para los demás. Eso dice muchísimo de la persona que eres.">
+          <span class="flower-number">03</span>
+          <div class="flower flower-alt2">
+            <i class="petal p1"></i><i class="petal p2"></i><i class="petal p3"></i><i class="petal p4"></i>
+            <i class="petal p5"></i><i class="petal p6"></i><i class="petal p7"></i><i class="petal p8"></i>
+            <i class="center"></i><i class="stem"></i><i class="leaf l1"></i><i class="leaf l2"></i>
+          </div>
+          <span class="tap">TÓCAME</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="letter section" id="carta">
+      <div class="letter-paper reveal">
+        <div class="wax">K</div>
+        <div class="section-kicker">04 · PARA LEER DESPACITO</div>
+        <h2>Mi pequeña carta<br><em>para ti, Karyme.</em></h2>
+
+        <div class="letter-body">
+          <p>Querida Karyme:</p>
+
+          <p>
+            No sé si unas cuantas palabras puedan explicar todo lo que quisiera
+            decirte, pero aun así quiero intentarlo. Hay personas que uno conoce
+            y ya; y hay otras que, sin darse cuenta, empiezan a ocupar un lugar
+            especial. Tú eres de esas personas.
+          </p>
+
+          <p>
+            Quiero que sepas que te admiro muchísimo. No solamente por tu forma
+            de verte, por tu sonrisa o por esos pequeños detalles que hacen que
+            me encante mirarte. Te admiro por lo que llevas dentro. Por ese
+            corazón tan grande que tienes, por la manera en que puedes preocuparte
+            por los demás y por seguir siendo buena incluso cuando tú misma estás
+            atravesando cosas que no son fáciles.
+          </p>
+
+          <blockquote>
+            “Si algún día no encuentras luz en el camino,<br>
+            recuerda que también existen personas<br>
+            que te miran y ven un amanecer.”
+          </blockquote>
+
+          <p>
+            Quizá tú no siempre puedas verlo, pero yo sí veo muchas cosas bonitas
+            en ti. Veo una persona que merece cariño sin condiciones, paciencia,
+            abrazos sinceros y días tranquilos. Veo a alguien que todavía tiene
+            muchísimo por vivir, descubrir y construir.
+          </p>
+
+          <p>
+            Y si alguna vez la vida te hace sentir pequeña, o te hace pensar que
+            no eres suficiente, quiero que vuelvas a estas palabras. No necesitas
+            demostrarle nada a nadie para merecer amor. No tienes que ser perfecta.
+            No tienes que esconder tus días malos. Sigues siendo tú, y eso ya es
+            algo que para mí vale muchísimo.
+          </p>
+
+          <div class="poem">
+            <p>Hay flores que nacen con el sol,<br>
+            y otras que esperan la lluvia.</p>
+            <p>Tú eres un poquito de ambas:<br>
+            luz cuando puedes,<br>
+            refugio cuando quieres,<br>
+            y belleza incluso cuando no la notas.</p>
+            <p>Por eso hoy te regalo amarillos:<br>
+            para que cuando los mires<br>
+            recuerdes que todavía hay días<br>
+            que pueden volver a florecer.</p>
+          </div>
+
+          <p>
+            Te quiero muchísimo, Karyme. Mucho más de lo que a veces sé explicar.
+            Y aunque estas flores sean solamente una pequeña página en internet,
+            todo lo que hay detrás de ellas es real: el cariño, la admiración,
+            las ganas de verte bien y el deseo de que nunca olvides la persona
+            tan bonita que eres.
+          </p>
+
+          <p>
+            Ojalá puedas mirarte algún día con los mismos ojos con los que te
+            miran las personas que te quieren. Ojalá puedas darte un poquito del
+            amor que tantas veces das a los demás. Y ojalá, cuando lleguen días
+            difíciles, recuerdes que no tienes que atravesarlos pensando que
+            estás sola.
+          </p>
+
+          <p class="final-love">
+            Con muchísimo cariño,<br>
+            <strong>alguien que te quiere y te admira más de lo que imaginas.</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-section">
+      <div class="final-flower">✿</div>
+      <p class="eyebrow">Y UNA ÚLTIMA COSA...</p>
+      <h2>Que nunca se te olvide<br><em>lo especial que eres.</em></h2>
+      <p>Te quiero, Karyme. 💛</p>
+      <button id="surpriseBtn" class="gold-btn">Una última sorpresa ✦</button>
+    </section>
+  </main>
+
+  <div class="message-modal" id="messageModal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="message-box">
+      <button class="close-modal" id="closeModal" aria-label="Cerrar">×</button>
+      <div class="mini-bloom">✿</div>
+      <p class="eyebrow">PARA TI</p>
+      <p id="flowerMessage"></p>
+      <span>💛</span>
+    </div>
+  </div>
+
+  <div class="surprise-modal" id="surpriseModal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="surprise-box">
+      <div class="big-heart">♥</div>
+      <h2>Karyme</h2>
+      <p>Que la vida te devuelva multiplicado todo el cariño bonito que das.</p>
+      <p class="tiny">Y si hoy no puedes verlo, déjame recordártelo yo.</p>
+      <button id="closeSurprise" class="gold-btn">Cerrar con una sonrisa :)</button>
+    </div>
+  </div>
+
+  <footer>
+    Hecho con cariño, paciencia y muchas flores amarillas. <span>♥</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
